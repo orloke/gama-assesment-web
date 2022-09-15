@@ -24,8 +24,8 @@ export function Success() {
 		<>
 			<Header title={title} />
 			<Container>
-				<QuestionsMapSuccess />
-				<SuccessPage score={score} />
+				{/* <QuestionsMapSuccess />
+				<SuccessPage score={score} /> */}
 			</Container>
 		</>
 	);
