@@ -7,22 +7,22 @@ import { scoreAssessment } from '../../services/userAssessment';
 import { Container } from './styles';
 
 export function Success() {
-	const [score, setScore] = useState(0);
-	const title = Cookies.get('titleAssessment') as string;
-	const assessmentId = Cookies.get('assessmentId') as string;
+	// const [score, setScore] = useState(0);
+	// const title = Cookies.get('titleAssessment') as string;
+	// const assessmentId = Cookies.get('assessmentId') as string;
 
-	useEffect(() => {
-		async function gettingScoreAssessment() {
-			const constScoreAssessment = await scoreAssessment(assessmentId)
-			setScore(constScoreAssessment.data.score)
-		}
+	// useEffect(() => {
+	// 	async function gettingScoreAssessment() {
+	// 		const constScoreAssessment = await scoreAssessment(assessmentId)
+	// 		setScore(constScoreAssessment.data.score)
+	// 	}
 
-		gettingScoreAssessment()
-	}, [])
+	// 	gettingScoreAssessment()
+	// }, [])
 
 	return (
 		<>
-			<Header title={title} />
+			<Header title={'title'} />
 			<Container>
 				{/* <QuestionsMapSuccess />
 				<SuccessPage score={score} /> */}
