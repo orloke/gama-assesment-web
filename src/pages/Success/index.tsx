@@ -22,7 +22,7 @@ export function Success() {
 
 	return (
 		<>
-			<Header title={'title'} />
+			{/* <Header title={'title'} /> */}
 			<Container>
 				{/* <QuestionsMapSuccess />
 				<SuccessPage score={score} /> */}
